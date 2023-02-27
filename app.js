@@ -3,7 +3,7 @@ const routerLivros = require("./rotas/livro");
 
 const app = express();
 
-const port = 8123;
+const port = 8010;
 
 app.use("/livros", routerLivros);
 
